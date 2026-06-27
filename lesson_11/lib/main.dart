@@ -2,6 +2,8 @@ void main() {
   List<String> studentsName = ["Ahmed", "Ali", "Ali", "Sameh"];
 
   print(studentsName);
+  studentsName.add("Mohamed");
+  print(studentsName);
   print(studentsName[0]);
   print(studentsName[2]);
   print(studentsName[3]);
@@ -10,5 +12,4 @@ void main() {
   print(studentsName.toSet());
   print(studentsName.removeLast());
   print(studentsName.removeAt(0));
-  
 }
